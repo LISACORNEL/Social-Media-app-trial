@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/anime"
+        android:scaleType="centerCrop"
+        android:foregroundGravity="center" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="1dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/viral"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="65dp"
+        android:fontFamily="@font/great"
+        android:text="Go Viral"
+        android:textAlignment="center"
+        android:textColor="@color/yellow"
+        android:textSize="40dp"
+        android:shadowColor="@color/black"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="1"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/layout7"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="500dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/btn"
+            android:text="LOG IN"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn2"
+            android:text="SIGN UP"
+            android:shadowRadius="2"
+            android:shadowDy="1"
+            android:shadowDx="1"
+            android:shadowColor="@color/black"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Goviral@2024"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Version 1.0.0"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="10dp"
+            android:textColor="@color/white"
+            android:layout_height="20dp" />
+    </LinearLayout>
+</RelativeLayout>
